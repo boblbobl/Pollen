@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC20EECA1940341900E15F2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC20EEC91940341900E15F2E /* Foundation.framework */; };
+		DC20EECC1940341900E15F2E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC20EECB1940341900E15F2E /* CoreGraphics.framework */; };
+		DC20EECE1940341900E15F2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC20EECD1940341900E15F2E /* UIKit.framework */; };
+		DC20EED41940341900E15F2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC20EED21940341900E15F2E /* InfoPlist.strings */; };
+		DC20EED61940341900E15F2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC20EED51940341900E15F2E /* main.m */; };
+		DC20EEDA1940341900E15F2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC20EED91940341900E15F2E /* AppDelegate.m */; };
+		DC20EEDD1940341900E15F2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC20EEDB1940341900E15F2E /* Main.storyboard */; };
+		DC20EEE01940341900E15F2E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC20EEDF1940341900E15F2E /* ViewController.m */; };
+		DC20EEE21940341900E15F2E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC20EEE11940341900E15F2E /* Images.xcassets */; };
+		DC20EEE91940341900E15F2E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC20EEE81940341900E15F2E /* XCTest.framework */; };
+		DC20EEEA1940341900E15F2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC20EEC91940341900E15F2E /* Foundation.framework */; };
+		DC20EEEB1940341900E15F2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC20EECD1940341900E15F2E /* UIKit.framework */; };
+		DC20EEF31940341900E15F2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC20EEF11940341900E15F2E /* InfoPlist.strings */; };
+		DC20EEF51940341900E15F2E /* PollenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC20EEF41940341900E15F2E /* PollenTests.m */; };
+		DC9C74221944C6F000B0F0BD /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9C74211944C6F000B0F0BD /* PageContentViewController.m */; };
+		DC9C74251944D21100B0F0BD /* Birch.png in Resources */ = {isa = PBXBuildFile; fileRef = DC9C74231944D21100B0F0BD /* Birch.png */; };
+		DC9C74261944D21100B0F0BD /* Mugwort.png in Resources */ = {isa = PBXBuildFile; fileRef = DC9C74241944D21100B0F0BD /* Mugwort.png */; };
+		DC9C742A1944F5E200B0F0BD /* Grass.png in Resources */ = {isa = PBXBuildFile; fileRef = DC9C74291944F5E200B0F0BD /* Grass.png */; };
+		DC9C742C1946477800B0F0BD /* Pictos.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC9C742B1946477800B0F0BD /* Pictos.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC20EEEC1940341900E15F2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC20EEBE1940341900E15F2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC20EEC51940341900E15F2E;
+			remoteInfo = Pollen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC20EEC61940341900E15F2E /* Pollen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pollen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC20EEC91940341900E15F2E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC20EECB1940341900E15F2E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DC20EECD1940341900E15F2E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DC20EED11940341900E15F2E /* Pollen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pollen-Info.plist"; sourceTree = "<group>"; };
+		DC20EED31940341900E15F2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC20EED51940341900E15F2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC20EED71940341900E15F2E /* Pollen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pollen-Prefix.pch"; sourceTree = "<group>"; };
+		DC20EED81940341900E15F2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC20EED91940341900E15F2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC20EEDC1940341900E15F2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC20EEDE1940341900E15F2E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DC20EEDF1940341900E15F2E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC20EEE11940341900E15F2E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DC20EEE71940341900E15F2E /* PollenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PollenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC20EEE81940341900E15F2E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DC20EEF01940341900E15F2E /* PollenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PollenTests-Info.plist"; sourceTree = "<group>"; };
+		DC20EEF21940341900E15F2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC20EEF41940341900E15F2E /* PollenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PollenTests.m; sourceTree = "<group>"; };
+		DC9C74201944C6F000B0F0BD /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
+		DC9C74211944C6F000B0F0BD /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
+		DC9C74231944D21100B0F0BD /* Birch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Birch.png; sourceTree = "<group>"; };
+		DC9C74241944D21100B0F0BD /* Mugwort.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mugwort.png; sourceTree = "<group>"; };
+		DC9C74291944F5E200B0F0BD /* Grass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Grass.png; sourceTree = "<group>"; };
+		DC9C742B1946477800B0F0BD /* Pictos.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pictos.otf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC20EEC31940341900E15F2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC20EECC1940341900E15F2E /* CoreGraphics.framework in Frameworks */,
+				DC20EECE1940341900E15F2E /* UIKit.framework in Frameworks */,
+				DC20EECA1940341900E15F2E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC20EEE41940341900E15F2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC20EEE91940341900E15F2E /* XCTest.framework in Frameworks */,
+				DC20EEEB1940341900E15F2E /* UIKit.framework in Frameworks */,
+				DC20EEEA1940341900E15F2E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC20EEBD1940341900E15F2E = {
+			isa = PBXGroup;
+			children = (
+				DC20EECF1940341900E15F2E /* Pollen */,
+				DC20EEEE1940341900E15F2E /* PollenTests */,
+				DC20EEC81940341900E15F2E /* Frameworks */,
+				DC20EEC71940341900E15F2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC20EEC71940341900E15F2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC20EEC61940341900E15F2E /* Pollen.app */,
+				DC20EEE71940341900E15F2E /* PollenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC20EEC81940341900E15F2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC20EEC91940341900E15F2E /* Foundation.framework */,
+				DC20EECB1940341900E15F2E /* CoreGraphics.framework */,
+				DC20EECD1940341900E15F2E /* UIKit.framework */,
+				DC20EEE81940341900E15F2E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC20EECF1940341900E15F2E /* Pollen */ = {
+			isa = PBXGroup;
+			children = (
+				DC20EED81940341900E15F2E /* AppDelegate.h */,
+				DC20EED91940341900E15F2E /* AppDelegate.m */,
+				DC20EEDB1940341900E15F2E /* Main.storyboard */,
+				DC20EEDE1940341900E15F2E /* ViewController.h */,
+				DC20EEDF1940341900E15F2E /* ViewController.m */,
+				DC20EEE11940341900E15F2E /* Images.xcassets */,
+				DC20EED01940341900E15F2E /* Supporting Files */,
+				DC9C74201944C6F000B0F0BD /* PageContentViewController.h */,
+				DC9C74211944C6F000B0F0BD /* PageContentViewController.m */,
+			);
+			path = Pollen;
+			sourceTree = "<group>";
+		};
+		DC20EED01940341900E15F2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC9C742B1946477800B0F0BD /* Pictos.otf */,
+				DC9C74291944F5E200B0F0BD /* Grass.png */,
+				DC9C74231944D21100B0F0BD /* Birch.png */,
+				DC9C74241944D21100B0F0BD /* Mugwort.png */,
+				DC20EED11940341900E15F2E /* Pollen-Info.plist */,
+				DC20EED21940341900E15F2E /* InfoPlist.strings */,
+				DC20EED51940341900E15F2E /* main.m */,
+				DC20EED71940341900E15F2E /* Pollen-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC20EEEE1940341900E15F2E /* PollenTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC20EEF41940341900E15F2E /* PollenTests.m */,
+				DC20EEEF1940341900E15F2E /* Supporting Files */,
+			);
+			path = PollenTests;
+			sourceTree = "<group>";
+		};
+		DC20EEEF1940341900E15F2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC20EEF01940341900E15F2E /* PollenTests-Info.plist */,
+				DC20EEF11940341900E15F2E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC20EEC51940341900E15F2E /* Pollen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC20EEF81940341900E15F2E /* Build configuration list for PBXNativeTarget "Pollen" */;
+			buildPhases = (
+				DC20EEC21940341900E15F2E /* Sources */,
+				DC20EEC31940341900E15F2E /* Frameworks */,
+				DC20EEC41940341900E15F2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pollen;
+			productName = Pollen;
+			productReference = DC20EEC61940341900E15F2E /* Pollen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC20EEE61940341900E15F2E /* PollenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC20EEFB1940341900E15F2E /* Build configuration list for PBXNativeTarget "PollenTests" */;
+			buildPhases = (
+				DC20EEE31940341900E15F2E /* Sources */,
+				DC20EEE41940341900E15F2E /* Frameworks */,
+				DC20EEE51940341900E15F2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC20EEED1940341900E15F2E /* PBXTargetDependency */,
+			);
+			name = PollenTests;
+			productName = PollenTests;
+			productReference = DC20EEE71940341900E15F2E /* PollenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC20EEBE1940341900E15F2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Lars Hundebøl";
+				TargetAttributes = {
+					DC20EEE61940341900E15F2E = {
+						TestTargetID = DC20EEC51940341900E15F2E;
+					};
+				};
+			};
+			buildConfigurationList = DC20EEC11940341900E15F2E /* Build configuration list for PBXProject "Pollen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC20EEBD1940341900E15F2E;
+			productRefGroup = DC20EEC71940341900E15F2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC20EEC51940341900E15F2E /* Pollen */,
+				DC20EEE61940341900E15F2E /* PollenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC20EEC41940341900E15F2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9C74261944D21100B0F0BD /* Mugwort.png in Resources */,
+				DC9C74251944D21100B0F0BD /* Birch.png in Resources */,
+				DC20EEE21940341900E15F2E /* Images.xcassets in Resources */,
+				DC20EED41940341900E15F2E /* InfoPlist.strings in Resources */,
+				DC9C742A1944F5E200B0F0BD /* Grass.png in Resources */,
+				DC9C742C1946477800B0F0BD /* Pictos.otf in Resources */,
+				DC20EEDD1940341900E15F2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC20EEE51940341900E15F2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC20EEF31940341900E15F2E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC20EEC21940341900E15F2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC20EEE01940341900E15F2E /* ViewController.m in Sources */,
+				DC9C74221944C6F000B0F0BD /* PageContentViewController.m in Sources */,
+				DC20EEDA1940341900E15F2E /* AppDelegate.m in Sources */,
+				DC20EED61940341900E15F2E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC20EEE31940341900E15F2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC20EEF51940341900E15F2E /* PollenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC20EEED1940341900E15F2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC20EEC51940341900E15F2E /* Pollen */;
+			targetProxy = DC20EEEC1940341900E15F2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC20EED21940341900E15F2E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC20EED31940341900E15F2E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DC20EEDB1940341900E15F2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC20EEDC1940341900E15F2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC20EEF11940341900E15F2E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC20EEF21940341900E15F2E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC20EEF61940341900E15F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC20EEF71940341900E15F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC20EEF91940341900E15F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pollen/Pollen-Prefix.pch";
+				INFOPLIST_FILE = "Pollen/Pollen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DC20EEFA1940341900E15F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pollen/Pollen-Prefix.pch";
+				INFOPLIST_FILE = "Pollen/Pollen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DC20EEFC1940341900E15F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pollen.app/Pollen";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pollen/Pollen-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PollenTests/PollenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DC20EEFD1940341900E15F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pollen.app/Pollen";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pollen/Pollen-Prefix.pch";
+				INFOPLIST_FILE = "PollenTests/PollenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC20EEC11940341900E15F2E /* Build configuration list for PBXProject "Pollen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC20EEF61940341900E15F2E /* Debug */,
+				DC20EEF71940341900E15F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC20EEF81940341900E15F2E /* Build configuration list for PBXNativeTarget "Pollen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC20EEF91940341900E15F2E /* Debug */,
+				DC20EEFA1940341900E15F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC20EEFB1940341900E15F2E /* Build configuration list for PBXNativeTarget "PollenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC20EEFC1940341900E15F2E /* Debug */,
+				DC20EEFD1940341900E15F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC20EEBE1940341900E15F2E /* Project object */;
+}
